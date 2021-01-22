@@ -25,7 +25,7 @@ function budgetCalculator(Watch, Phone, Laltop) {
     
     //Bonus assignment Error message show 
     if (Watch < 0 || Phone < 0 || Laltop < 0) {
-        return " Please Input with Positive Numbers";
+        return " Please assign Positive Numbers";
     }
     return total;
 }
