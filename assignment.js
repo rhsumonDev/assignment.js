@@ -7,7 +7,7 @@ function kilometerToMeter(km){
     var meter = 1000;
      meter = km * meter;
 
-     //Error Message Show
+     //Bonus assignment Error message show 
      if (km == (null || undefined) || km < 0) {
         return " Dont't Use Negetive Value";
     }
@@ -23,7 +23,7 @@ function budgetCalculator(Watch, Phone, Laltop) {
     var laptopCost = 500;
     var total = (watchCost * Watch) + (phoneCost * Phone) + (laptopCost * Laltop);
     
-    //Error message show
+    //Bonus assignment Error message show 
     if (Watch < 0 || Phone < 0 || Laltop < 0) {
         return " Please Input with Positive Numbers";
     }
@@ -54,7 +54,7 @@ function hotelCost(stays){
         totalCost = tenDaysCost + twentyDaysCost + overTwentyDaysCost;
     }
 
-    //Error message show
+    //Bonus assignment Error message show 
     if (stays < 1) {
         return "Please Enter 1 to 100 days";
     }
