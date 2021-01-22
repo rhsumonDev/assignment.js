@@ -21,19 +21,19 @@ function budgetCalculator(Watch, Phone, Laltop) {
     var watchCost = 50;
     var phoneCost = 100;
     var laptopCost = 500;
-    var total = (watchCost * Watch) + (phoneCost * Phone) + (laptopCost * Laltop);
+    var totalDeviceCost = (watchCost * Watch) + (phoneCost * Phone) + (laptopCost * Laltop);
     
     //Bonus assignment Error message show 
     if (Watch < 0 || Phone < 0 || Laltop < 0) {
         return " Please assign Positive Numbers";
     }
-    return total;
+    return totalDeviceCost;
 }
 
 // HotelCost problem solved
 function hotelCost(stays){
 
-    /* tenDaysCost = 100;
+    /* tenDaysCost = 100; 
      twentyDaysCost = 80;
      overtwentyDays = 50*/
 
