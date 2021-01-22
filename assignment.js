@@ -9,7 +9,7 @@ function kilometerToMeter(km){
 
      //Bonus assignment Error message show 
      if (km == (null || undefined) || km < 0) {
-        return " Dont't Use Negetive Value";
+        return " Dont't Use Negetive value";
     }
     return meter;
 }
